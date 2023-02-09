@@ -1,3 +1,27 @@
 body {
-  background-color: aqua;
+  opacity: 1;
+  background: linear-gradient(135deg, rgba(42, 42, 42, 0.3333333333) 25%, transparent 25%) -40px 0/80px 80px, linear-gradient(225deg, #2a2a2a 25%, transparent 25%) -40px 0/80px 80px, linear-gradient(315deg, rgba(42, 42, 42, 0.3333333333) 25%, transparent 25%) 0px 0/80px 80px, linear-gradient(45deg, #2a2a2a 25%, #222222 25%) 0px 0/80px 80px;
+}
+
+#Banner {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #222222;
+  background-color: #222222;
+}
+#Banner .infobaner {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Banner .infobaner h1 {
+  text-align: center;
+  color: #DE9C18;
+  padding: 19px;
+}
+#Banner .infobaner P {
+  color: #DE9C18;
+  text-align: center;
 }/*# sourceMappingURL=Style.css.map */
