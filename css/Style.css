@@ -1,13 +1,15 @@
 body {
-  opacity: 1;
-  background: linear-gradient(135deg, rgba(42, 42, 42, 0.3333333333) 25%, transparent 25%) -40px 0/80px 80px, linear-gradient(225deg, #2a2a2a 25%, transparent 25%) -40px 0/80px 80px, linear-gradient(315deg, rgba(42, 42, 42, 0.3333333333) 25%, transparent 25%) 0px 0/80px 80px, linear-gradient(45deg, #2a2a2a 25%, #222222 25%) 0px 0/80px 80px;
+  background-color: #000000;
+}
+
+p {
+  font-size: 25px;
 }
 
 #Banner {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #222222;
-  background-color: #222222;
+  background-color: #000000;
 }
 #Banner .infobaner {
   padding-top: 15px;
@@ -20,8 +22,27 @@ body {
   text-align: center;
   color: #DE9C18;
   padding: 19px;
+  font-size: 50px;
+  font-weight: 600;
 }
 #Banner .infobaner P {
   color: #DE9C18;
+  text-align: center;
+}
+
+#about .infoabout {
+  padding-top: 5rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about .infoabout h3 {
+  color: #DE9C18;
+  text-align: center;
+}
+#about .infoabout p {
+  color: #E3B75D;
   text-align: center;
 }/*# sourceMappingURL=Style.css.map */
