@@ -1,15 +1,16 @@
 body {
-  background-color: #000000;
+  background-color: #141f2c;
+  color: #f7dbab;
 }
 
 p {
-  font-size: 25px;
+  font-size: 20px;
+  color: #c2a87c;
 }
 
 #Banner {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #000000;
 }
 #Banner .infobaner {
   padding-top: 15px;
@@ -20,29 +21,57 @@ p {
 }
 #Banner .infobaner h1 {
   text-align: center;
-  color: #DE9C18;
+  color: #f7dbab;
   padding: 19px;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
 }
 #Banner .infobaner P {
-  color: #DE9C18;
+  color: #f7dbab;
   text-align: center;
 }
 
 #about .infoabout {
   padding-top: 5rem;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 #about .infoabout h3 {
-  color: #DE9C18;
+  color: #f7dbab;
   text-align: center;
 }
 #about .infoabout p {
-  color: #E3B75D;
+  color: #c2a87c;
   text-align: center;
+}
+#about .infocards h3 {
+  text-align: center;
+}
+#about .infocards .card-body {
+  background-color: #fef2dc;
+}
+#about .infocards .cat {
+  padding-top: 25px;
+  padding-top: 30px;
+}
+#about .infocards .cat p {
+  text-align: justify;
+}
+#about .infocards .cardi {
+  padding-bottom: 50px;
+}
+#about .infocards .cardi h5 {
+  color: #141f2c;
+  text-align: center;
+}
+#about .infocards .cardi p {
+  text-align: justify;
+}
+
+#adopcion {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }/*# sourceMappingURL=Style.css.map */

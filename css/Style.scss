@@ -1,22 +1,22 @@
-$BackColor:#000000;
-$colorB:#E3B75D;
-$colorA:#DE9C18;
-
-
+$BackColor:#141f2c;
+$colorB:#c2a87c;
+$colorA:#f7dbab;
 
 body{
     background-color: $BackColor;
+    color: $colorA;
 }
 
 p{
-    font-size: 25px;
+    font-size: 20px;
+    color: $colorB;
 }
 
 #Banner{
   
     padding-top:5rem;
     padding-bottom: 5rem;
-    background-color: #000000;
+ 
 
     
     .infobaner{
@@ -29,7 +29,7 @@ p{
             text-align: center;
             color: $colorA;
             padding: 19px;
-            font-size: 50px;
+            font-size: 40px;
             font-weight:600;
         }
         P{
@@ -43,7 +43,7 @@ p{
 #about{
     .infoabout{
         padding-top: 5rem;
-        padding-top: 2rem;
+        padding-top: 3.5rem;
         display: flex;
         flex-direction:column;
         align-items: center;
@@ -58,4 +58,37 @@ p{
             text-align: center;
         }
     }
+
+    .infocards{
+        h3{
+            text-align: center;
+        }
+        .card-body{
+            background-color: #fef2dc;
+        }
+        .cat{
+            padding-top: 25px;
+            padding-top: 30px;
+            p{
+                text-align: justify;
+            }
+        }
+
+        .cardi{
+            padding-bottom: 50px;
+            h5{
+                color: $BackColor;
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+        
+    }
+}
+
+#adopcion{
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
